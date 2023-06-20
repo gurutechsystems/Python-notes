@@ -1,0 +1,8 @@
+The "__init__.py" in any is used to mark a directory as a python package
+When a package is imported,python looks for the __init__.py file in the package directory and executes any code in it
+
+__init__.py is also used to initialize tasks or set up the package namespace
+
+
+We create an empty __init__.py in all directories in a python project to make the directories python packages.
+This enables us to import modules in this directories into our python project

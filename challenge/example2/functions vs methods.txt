@@ -1,0 +1,22 @@
+1==>Function: 
+Functions enable use to modularize our code hence, we can reuse our code.It is a block of code that perform
+specific tasks.Functions takes parameters and print message and defined using "def"
+
+def hello():
+    print('hello Ngembane, welcome to USA')
+
+2==>Method:
+This is a Function associated with a class(object). 
+
+class lexicon():
+    def __init__(self, name, description):
+        self.name=name
+        self.description=description
+        self.paths={}
+
+    def go(self, direction):
+        return self.paths.get(direction,None)
+
+In summary, while both functions and methods are used to perform a specific task, 
+a method is a function that is associated with an object or a class, 
+while a function can be called from anywhere in the code.        
